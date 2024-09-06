@@ -1,12 +1,13 @@
 import './App.css'
-import Onama from './components/Onama'
+import Kontakt from './components/Kontakt'
+// import Onama from './components/Onama'
 
 function App() {
 
   return (
     <>
       <div>
-        <Onama/>
+        <Kontakt/>
       </div>
     </>
   )
