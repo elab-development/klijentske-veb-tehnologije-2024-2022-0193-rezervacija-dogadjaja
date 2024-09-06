@@ -1,8 +1,8 @@
 import React from 'react';
-import './NavBar.css';
+import './Navbar.css';
 import freezLogo from '../assets/FREEZbeli.png';
 
-const NavBar: React.FC = () => {
+const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
@@ -19,4 +19,4 @@ const NavBar: React.FC = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;

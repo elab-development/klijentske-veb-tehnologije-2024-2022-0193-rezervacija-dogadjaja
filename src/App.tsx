@@ -1,14 +1,12 @@
 import './App.css'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
+import Onama from './components/Onama'
 
 function App() {
 
   return (
     <>
       <div>
-        <Navbar/>
-        <Footer/>
+        <Onama/>
       </div>
     </>
   )

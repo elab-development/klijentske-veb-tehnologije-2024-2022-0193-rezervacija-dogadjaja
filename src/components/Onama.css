@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container img{
+    height: 500px;
+}
+
+.container div p{
+    text-align: left;
+}
