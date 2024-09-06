@@ -1,12 +1,14 @@
-.container{
+.containerOnama{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    position: relative;
+    left: 20%;
 }
-.container img{
+.containerOnama img{
     height: 500px;
 }
 
-.container div p{
+.containerOnama div p{
     text-align: left;
 }

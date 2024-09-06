@@ -17,7 +17,7 @@ const Kontakt: React.FC = () => {
   return (
     <>
     <Navbar/>
-    <div className='container'>
+    <div className='containerKontakt'>
         <h1>Kontakt</h1>
         <form className="contact-form" onSubmit={handleSubmit}>
       <div className="form-group">

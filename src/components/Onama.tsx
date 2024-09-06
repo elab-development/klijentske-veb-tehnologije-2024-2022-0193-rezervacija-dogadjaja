@@ -8,7 +8,7 @@ const Onama: React.FC = () => {
   return (
     <>
     <Navbar/>
-    <div className='container'>
+    <div className='containerOnama'>
         <div>
             <h1>O nama</h1>
             <p>
