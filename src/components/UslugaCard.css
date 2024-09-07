@@ -1,0 +1,53 @@
+.usluga-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .usluga-card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .usluga-card-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .usluga-card-name {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .usluga-card-location {
+    font-size: 1em;
+    color: #777;
+    margin: 8px 0;
+  }
+  
+  .usluga-card-rating {
+    font-size: 1em;
+    color: #333;
+  }  
+
+  .usluga-card-content div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .usluga-card-content div img{
+    width: 20px;
+    height: 20px;
+  }
+  .usluga-card img{
+    height: 200px;
+    width: 300px;
+  }
