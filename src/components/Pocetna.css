@@ -1,0 +1,32 @@
+.pocetnaDiv{
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    top: 120px;
+}
+
+.containerPocetna {
+    margin-bottom: 50px;
+  }
+  
+  .frizer-card-containerPocetna {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    margin-top: 20px;
+
+  }
+
+  .SlikePocetna{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 250px;
+  }
+  .slike1{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
