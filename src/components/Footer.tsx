@@ -15,15 +15,15 @@ const Footer: React.FC = () => {
             <h4>About</h4>
             <ul>
               <li><a href="/onama">About Us</a></li>
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="/career">Career</a></li>
+              <li><a href="/pocetna">Blog</a></li>
+              <li><a href="/pocetna">Career</a></li>
             </ul>
           </div>
           <div className="footer-column">
             <h4>Support</h4>
             <ul>
               <li><a href="/kontakt">Kontakt</a></li>
-              <li><a href="/faq">FAQ</a></li>
+              <li><a href="/pocetna">FAQ</a></li>
             </ul>
           </div>
           <div className="footer-column">
@@ -33,9 +33,9 @@ const Footer: React.FC = () => {
               <button type="button">Subscribe</button>
             </div>
             <div className="footer-social-icons">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+              <a href="https://instagram.com" >Instagram</a>
+              <a href="https://twitter.com" >Twitter</a>
+              <a href="https://facebook.com" >Facebook</a>
             </div>
           </div>
         </div>

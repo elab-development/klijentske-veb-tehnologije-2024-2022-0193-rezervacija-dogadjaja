@@ -3,9 +3,26 @@ import { Frizer } from '../models/Frizer';
 import './FrizerCard.css'; 
 import location from '../assets/location.png'
 import star from '../assets/star_rate.png'
+import { useNavigate } from 'react-router-dom';
 
 
-const FrizerCard: React.FC<Frizer> = ({ ime, lokacija, ocena, imageSrc }) => {
+interface FrizerCardProps extends Frizer {
+  parentComponent: 'MuskiFrizeri' | 'ZenskiFrizeri';
+}
+
+const FrizerCard: React.FC<FrizerCardProps> = ({ ime, lokacija, ocena, imageSrc,parentComponent }) => {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    if (parentComponent === 'MuskiFrizeri') {
+      navigate('/uslugem');
+    } else if (parentComponent === 'ZenskiFrizeri') {
+      navigate('/uslugez');
+    }
+    localStorage.setItem('FrizerskiSalon', JSON.stringify(ime));
+  };
+
+
   return (
     <div className="frizer-card">
       <img src={imageSrc} alt={`${ime} - ${lokacija}`} className="frizer-card-image" />
@@ -19,6 +36,7 @@ const FrizerCard: React.FC<Frizer> = ({ ime, lokacija, ocena, imageSrc }) => {
             <img src={star} alt="" />
             <p className="frizer-card-rating">Rating: {ocena.toFixed(1)} / 5</p>
         </div>
+        <button onClick={handleButtonClick}>Izaberi uslugu</button>
       </div>
     </div>
   );

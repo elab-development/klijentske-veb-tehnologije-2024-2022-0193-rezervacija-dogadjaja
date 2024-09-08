@@ -11,9 +11,9 @@ const Navbar: React.FC = () => {
       <div className="navbar-links">
         <a className="navbar-link" href="/muski">Muški</a>
         <a className="navbar-link" href="/zenski">Ženski</a>
-        <a className="navbar-link" href="/proizvodi">Proizvodi</a>
+        <a className="navbar-link" href="/pocetna">Proizvodi</a>
         <a className="navbar-link" href="/profil">Profil</a>
-        <a className="navbar-link navbar-korpa" href="/korpa">Korpa</a>
+        <a className="navbar-link navbar-korpa" href="/termini">Korpa</a>
       </div>
     </nav>
   );

@@ -25,16 +25,12 @@ const Registracija: React.FC = () => {
       const newUser: User = new User(ime,username, email, password);
       const updatedUsers = [...users, newUser];
       setUsers(updatedUsers);
-
       localStorage.setItem('users', JSON.stringify(updatedUsers));
-
       console.log('Registered Users:', updatedUsers);
-
       setIme('');
       setUsername('');
       setEmail('');
       setPassword('');
-
       navigate('/login');
   };
   return (

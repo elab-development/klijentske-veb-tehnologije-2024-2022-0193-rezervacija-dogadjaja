@@ -3,10 +3,10 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import UslugaCard from './UslugaCard';
 
-import usluga1 from '../assets/u1.png'
-import usluga2 from '../assets/u2.png'
-import usluga3 from '../assets/u3.png'
-import usluga4 from '../assets/u4.png'
+import usluga1 from '../assets/fr1.png'
+import usluga2 from '../assets/u5.png'
+import usluga3 from '../assets/fr4.png'
+import usluga4 from '../assets/fr3.png'
 
 const usluge = [
     {
@@ -28,7 +28,7 @@ const usluge = [
       imageSrc: usluga3
     },
     {
-      ime: 'Paket: šišanje + brijanje',
+      ime: 'Feniranje',
       cena: 2500,
       trajanje: 60,
       imageSrc: usluga4

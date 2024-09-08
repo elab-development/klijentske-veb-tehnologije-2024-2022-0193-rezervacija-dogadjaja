@@ -1,0 +1,55 @@
+.terminiDiv{
+    display: flex;
+    flex-direction: column;
+
+}
+.terminiDiv h1{
+    position: absolute;
+    top: 110px;
+    width: 100%;
+}
+.termini-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .usluge-list {
+    display: flex;  
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .usluga-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .usluga-card-image {
+    height: 200px;
+    width: 300px;
+  }
+  
+  .usluga-card-content {
+    text-align: center;
+  }
+  
+  .usluga-card-name {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .usluga-card-price,
+  .usluga-card-duration,
+  .usluga-card-salon {
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+  .otkazi{
+    background-color: red;
+    color: white;
+  }
